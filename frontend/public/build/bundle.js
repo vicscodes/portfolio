@@ -910,19 +910,19 @@ var app = (function () {
     			a2.textContent = "contact";
     			attr_dev(a0, "href", "#about");
     			attr_dev(a0, "class", "nav-item svelte-1go961n");
-    			add_location(a0, file$b, 16, 6, 531);
-    			add_location(li0, file$b, 15, 4, 520);
+    			add_location(a0, file$b, 16, 6, 546);
+    			add_location(li0, file$b, 15, 4, 535);
     			attr_dev(a1, "href", "#projects");
     			attr_dev(a1, "class", "nav-item svelte-1go961n");
-    			add_location(a1, file$b, 21, 6, 655);
-    			add_location(li1, file$b, 20, 4, 644);
+    			add_location(a1, file$b, 21, 6, 670);
+    			add_location(li1, file$b, 20, 4, 659);
     			attr_dev(a2, "href", "#contact");
     			attr_dev(a2, "class", "nav-item svelte-1go961n");
-    			add_location(a2, file$b, 28, 6, 800);
-    			add_location(li2, file$b, 27, 4, 789);
+    			add_location(a2, file$b, 28, 6, 815);
+    			add_location(li2, file$b, 27, 4, 804);
     			attr_dev(ul, "class", "flex flex-col gap-4 md:gap-8 text-center text-2xl md:flex-row md:text-base capitalize");
-    			add_location(ul, file$b, 12, 2, 409);
-    			attr_dev(nav, "class", "fixed top-[68px] left-0 right-0 bottom-0 z-40 flex gap-8 flex-col justify-center items-center bg-secondary md:static md:flex-row md:bg-transparent border-t border-white");
+    			add_location(ul, file$b, 12, 2, 424);
+    			attr_dev(nav, "class", "fixed top-[68px] left-0 right-0 bottom-0 z-40 flex gap-8 flex-col justify-center items-center bg-secondary md:static md:flex-row md:bg-transparent border-t border-white md:border-none");
     			add_location(nav, file$b, 6, 0, 158);
     		},
     		l: function claim(nodes) {
