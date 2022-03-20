@@ -8,7 +8,9 @@
 </script>
 
 <header
-  class="relative z-50 flex justify-between items-center py-5 border-b border-white"
+  class="{$menuToggle
+    ? 'sticky'
+    : 'relative'} top-0 left-0 right-0 z-50 flex justify-between items-center py-5 border-b border-white bg-secondary"
 >
   <div>
     <a href="/" class="font-bold tracking-widest uppercase">victoria martin</a>

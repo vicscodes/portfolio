@@ -5,9 +5,10 @@
   import Skills from "./components/Skills.svelte";
   import Projects from "./components/Projects.svelte";
   import Contact from "./components/Contact.svelte";
+  import Footer from "./components/Footer.svelte";
 </script>
 
-<div class="w-11/12 md:w-9/12 max-w-screen-xl m-auto">
+<div class="w-11/12 max-w-screen-xl m-auto">
   <Navbar />
   <main>
     <Hero />
@@ -17,6 +18,7 @@
     <Contact />
   </main>
 </div>
+<Footer />
 
 <style lang="postcss" global>
   @tailwind base;
