@@ -8,7 +8,7 @@
   transition:slide={{ duration: 300, easing: quintOut }}
   class="fixed top-[68px] left-0 right-0 bottom-0 z-40 
   flex gap-8 flex-col justify-center items-center bg-secondary md:static 
-  md:flex-row md:bg-transparent border-t border-white md:border-none"
+  md:flex-row md:bg-transparent"
 >
   <ul
     class="flex flex-col gap-4  md:gap-8 text-center text-2xl md:flex-row md:text-base capitalize"
